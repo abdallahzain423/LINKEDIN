@@ -1,6 +1,6 @@
 import { globalHandeller } from "../middlewares/errorhandeller.middleware.js"
 import { userRouter } from "../modules/user/user.controller.js"
-import { companyRouter } from "../modules/company/controller.company.js"
+import { companyRouter } from "../modules/company/controller.company.js" 
 import { authRouter } from "../modules/auth/auth.controller.js" 
 import { adminRouter } from "../modules/Admin/admin.controller.js"
 import { mainSchema } from '../GraphQl/graphql.schema.js';
